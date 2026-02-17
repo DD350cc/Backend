@@ -123,6 +123,10 @@ USE_TZ = True
 
 # Cors
 CORS_ALLOW_ALL_ORIGINS = True
+CORS_ALLOWED_ORIGINS = [
+    "frontend-production-25bb.up.railway.app"
+]
+
 
 # DRF + JWT 
 
